@@ -13,7 +13,7 @@ export default {
 	type: 'postgresql',
 	user: __user,
 	password: __password,
-	dbName: 'benapp',
+	dbName: 'boilerplate',
 	entities: [Post, User],
 	debug: true, // return all queries in console in dev
 } as Parameters<typeof MikroORM.init>[0]

@@ -16,7 +16,7 @@ exports.default = {
     type: 'postgresql',
     user: constants_1.__user,
     password: constants_1.__password,
-    dbName: 'boilerplate',
+    dbName: constants_1.__db,
     entities: [Post_1.Post, User_1.User],
     debug: true,
 };
